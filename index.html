@@ -1,0 +1,181 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ido Rose</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <input type="checkbox" name="" id="bars">
+        <label for="bars" class="fas fa-bars"></label>
+        <img src="images/banner1.svg" class="imgbanner">
+        <h1 class="logoh1"><span>Ido</span> Rose</h1>
+        <div class="link-bar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#product">Product</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="icon">
+            <a href="login.html" class="fas fa-user"></a>
+        </div>
+    </header>
+    <div id="blur">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Fearless. Simple. Charming</h3>
+                <p>...just like you.</p>
+                <a href="#product" class="btn">Buy now</a>
+            </div>
+            <img src="images/banner.png" alt="no image">
+
+        </section>
+        <!-- about -->
+        <section class="about" id="about">
+            <h3 class="heading">About</h3>
+            <div class="row">
+                <div class="content-img">
+                    <img src="images/about.jpg" alt="">
+
+                </div>
+
+                <div class="content-about">
+                    <h3>How did it start</h3>
+                    <p>It was exactly the year 1965 when tradition for artisanal and felegree work with jewelry started
+                        at our family.
+
+                        At that time Ido was only 12 years old when he started learning this job, but nobody would think
+                        that it was exactly the beginning of an activity which would become a family tradition and a
+                        very unique brand would be created from his successors.</p>
+                </div>
+            </div>
+        </section>
+        <!-- product -->
+        <section class="product" id="product">
+            <h3 class="heading">Product</h3>
+            <div class="box-product">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/jew1.png" alt="">
+                        <div class="icon">
+                            <a href="" class="fas fa-heart"></a>
+                            <a class="cart-btn" onclick="toggle1()">1100 $</a>
+                            <a href="" class="fas fa-shopping-cart"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/jew2.png" alt="">
+                        <div class="icon">
+                            <a href="" class="fas fa-heart"></a>
+                            <a class="cart-btn" onclick="toggle2()">1200 $</a>
+                            <a href="" class="fas fa-shopping-cart"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/jew3.png" alt="">
+                        <div class="icon">
+                            <a href="" class="fas fa-heart"></a>
+                            <a class="cart-btn" onclick="toggle3()">1000 $</a>
+                            <a href="" class="fas fa-shopping-cart"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/jew4.png" alt="">
+                        <div class="icon">
+                            <a href="" class="fas fa-heart"></a>
+                            <a class="cart-btn" onclick="toggle4()">880 $</a>
+                            <a href="" class="fas fa-shopping-cart"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/jew5.png" alt="">
+                        <div class="icon">
+                            <a href="" class="fas fa-heart"></a>
+                            <a class="cart-btn" onclick="toggle5()">300 $</a>
+                            <a href="" class="fas fa-shopping-cart"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/jew6.png" alt="">
+                        <div class="icon">
+                            <a href="" class="fas fa-heart"></a>
+                            <a class="cart-btn" onclick="toggle6()">600 $</a>
+                            <a href="" class="fas fa-shopping-cart"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- pop up -->
+    <div class="popup" id="popup">
+        <h3 class="heading">Casual Sneakers Shoes</h3>
+        <img src="" alt="" id="image">
+        <div class="deks">
+            <p>Rp 1.083.937</p>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="button">
+                <a class="btn" onclick="toggle1()">Back</a>
+                <a href="" class="btn">buy</a>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <section class="footer" id="contact">
+        <div class="content-box">
+            <div class="box">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i>+6285795370574</p>
+                <p><i class="fas fa-envelope"></i>idorose@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i>London, UK</p>
+
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <p><i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                </p>
+            </div>
+            <div class="box">
+                <h3>Team Us</h3>
+                <a href="">Aida Bilalli</a>
+                <a href="">Sara Rrahimi</a>
+                <a href="">Yllka Uka</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdoRose - Sign Up</title>
+    <script defer src="/js/main.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<body>
+	<!-- header -->
+    <header>
+        <input type="checkbox" name="" id="bars">
+        <label for="bars" class="fas fa-bars"></label>
+        <img src="images/banner1.svg" class="imgbanner">
+        <h1 class="logoh1"><span>Ido</span> Rose</h1>
+        <div class="link-bar">
+            <a href="#home"></a>
+            <a href="#about"></a>
+            <a href="#product"></a>
+            <a href="contact.html"></a>
+        </div>
+        <div class="icon">
+            <a href="login.html" class="fas fa-user"></a>
+        </div>
+    </header>
+    <div id="blur">
+	<!-- signup card -->
+	<div id="card">
+		<div id="card-content">
+            <div id="card-title">
+                <h2>SIGN UP</h2>
+                <div class="underline-title"></div>
+            </div>
+            <form method="post" class="form" action="login.html" autocomplete="off">
+                <!-- name -->
+                <label style="padding-top:13px">&nbsp;Name</label>
+                <input class="form-content" type="name"/>
+                <div class="form-border"></div>
+            	<!-- email -->
+            	<label style="padding-top:22px">&nbsp;Email</label>
+                <input class="form-content" type="email"/>
+                <div class="form-border"></div>
+                <!-- password -->
+                <label style="padding-top:22px">&nbsp;Password</label>
+                <input class="form-content" type="password"/>
+                <div class="form-border"></div>
+                <!-- Submit Sign Up -->
+                <input id="btn-submit" type="submit" name="submit" value="SIGN UP" />
+                <a href="login.html" id="signup">Already have an account?</a>
+            </form>
+        </div>
+	</div>
+</body>
+</html>
